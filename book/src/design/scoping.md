@@ -55,9 +55,3 @@ Goals which we currently believe are not safely achievable in this first deploym
 * Deploying cross-chain interoperation such as the Inter-Blockchain Communication protocol (IBC) or Cross-Chain Interoperability Protocol (CCIP).
 * Supporting a large number of finalizers so that any user who wants to run their own finalizer can do so.
 * Supporting casual users, with little computer expertise, running finalizers.
-
-Non-Goals
----
-
-* The consensus mechanism is needed primarily to prevent double-spending/multi-spending/rollback attacks. It is not the primary provider of censorship-resistance, since that is provided primarily by end-to-end encryption, and it is not the primary provider of counterfeiting-resistance, since that is provided by proofs and turnstiles. So censorship-resistance and counterfeiting-resistance are not primary goals for (at least) the first deployment of Crosslink.
-* This is neutral with regard to Zcash governance —-- it doesn't change anything about Zcash governance.
